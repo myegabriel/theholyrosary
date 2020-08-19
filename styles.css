@@ -1,0 +1,112 @@
+/* Title */
+
+#title{
+  background-color: #fbe2e5;
+  font-family: Helvetica,sans-serif,serif;
+}
+
+.container-fluid{
+  padding: 6% 12%;
+}
+
+.mama-mary{
+  width:3%;
+}
+
+.navbar-brand{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.7rem;
+}
+
+.nav-link{
+  font-size: 1rem;
+}
+.rosary-guide{
+  width: 60%;
+  border-radius: 10%;
+}
+
+.guide{
+  text-align:center;
+}
+
+.why-pray{
+  margin: auto;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.praytherosary{
+  text-indent: 10%;
+}
+
+/* Prayers */
+
+#prayers{
+  text-align: justify;
+  background-color: #dbe3e5;
+    font-family: Helvetica,sans-serif,serif;
+}
+
+p{
+  font-size: 1.3rem;
+}
+
+.prayer-2, .hail-holy{
+  padding: 20px 50px;
+}
+
+li{
+  font-size: 1.3rem
+}
+
+
+/* Mysteries */
+
+#mysteries{
+  background-color: #ed6663;
+  color: #fff;
+    font-family: Helvetica,sans-serif,serif;
+
+
+}
+
+.carousel-item {
+  padding: 6% 15%;
+
+}
+
+
+/* Media Query */
+@media (max-width:731px){
+
+.mama-mary{
+  width: 8%;
+}
+
+.why-pray{
+  padding-top:20%;
+}
+
+.whypraythe-rosary{
+  text-align: left;
+    font-size: 1.5rem;
+}
+
+.mysteries, .guide-heading{
+  font-size: 1.5rem;
+}
+
+li, p{
+  font-size:1rem;
+}
+
+#footer{
+  font-size:.7rem;
+}
+}
+
+#footer{
+  padding:2% 4%;
+  text-align: center;
+}
